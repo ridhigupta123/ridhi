@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: linear-gradient(to right, #f89a80, #fdd3e6);
+            display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 100vh;
+          margin: 0px;
+        }
+        .Whatsapp
+        {
+           font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+         .box {
+            padding: 20px;
+            border: 1px solid;
+         height: fit-content;
+            width: 500px;
+         background-color: white;
+           border-radius: 5px;
+        }
+        #heading
+        {
+            color: rgb(2, 102, 201);
+            text-decoration: none;
+           margin-bottom: 10px;
+        }
+        #heading:hover
+        {
+            color: blue;
+            text-decoration: underline;
+        }
+        #box
+        {
+            display: flex;
+            justify-content: left;
+            margin-bottom: 5px;
+            font-size: 20px;
+        }
+        .text
+        {
+            display: flex;
+            justify-content: left;
+            color: #f5a892;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .option select
+        {
+           background-color: #f89a80;
+           border-radius: 5px;
+           width: 100%;
+           color: aliceblue;
+           padding: 15px;
+           margin-top: 5px;
+           margin-bottom: 10px;
+           height: fit-content;
+           font-size: 20px;
+        }
+        .input1 input
+        {
+            margin-top: 5px;
+            border: none;
+            width: 95%;
+            border-left: 1px solid #f5a892;
+            border-bottom: 1px solid #f5a892;
+            outline-color: #f5a892;
+            color: #f5a892;
+            padding: 10px;
+            font-size: 20px;
+         }
+         .input2 input
+         {
+            margin-top: 5px;
+            border: none;
+            width: 95%;
+            border-right: 1px solid #f5a892;
+            border-top: 1px solid #f5a892;
+            outline-color: #f5a892;
+            color: #f5a892;
+            padding: 10px;
+            font-size: 20px;
+            margin-top: 15px;
+         }
+         .button
+         {
+            border-radius: 10px;
+             border: none;
+             margin-top: 20px;
+        }
+        .btn1
+        {
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+           background-color: rgb(254, 189, 68);
+           color: white;
+        }
+        .btn2
+        {
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+            background-color:#516395;
+            color: white;
+        }
+        </style>
+</head>
+<body>
+     <div class="Whatsapp">
+        <div class="box">
+          <div id="box">  <a href="pw.html" id="heading">Home</a> / Sent  </div>   
+           <div class="text"> Sent Message in Gmail/Whatsapp </div>
+           <div class="option">
+           <select name="Whatsapp" id="">
+            <option value="Whatsapp">Whatsapp</option>
+            <option value="Whatsapp">Choose Option</option>
+            <option value="Whatsapp">Gmail</option>
+           </select>
+        </div>
+           <div class="input1">
+            <input type="text" placeholder="Object">
+           </div>
+           <div class=" input2">
+            <input type="text" placeholder="Message">
+           </div>
+           <div class="button">
+            <button class="btn1">Send</button>
+           <a href="pw.html"><button class="btn2">Back</button></a> 
+           </div>
+         </div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+         {
+            background-image: url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg);
+        }
+
+        .navbar 
+        {
+            color: aliceblue;
+            display: flex;
+            justify-content: right;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .navbar button
+         {
+            background-color: transparent;
+            border: 1px solid white;
+            border-radius: 5px;
+            color: white;
+            /* padding-left: 15px;
+            padding-right: 15px; */
+            padding: 5px 15px;
+        }
+
+        h1
+         {
+            color: aliceblue;
+            
+        }
+
+        .container
+         {
+            border: 1px solid aliceblue;
+            background-color: #ffffff22;
+            backdrop-filter: blur(20px);
+            width: 500px;
+             border-radius: 15px;
+            align-items: center;
+
+        }
+
+        .container input
+         {
+            background-color: transparent;
+            border-bottom: 1px solid aliceblue;
+            width: 75%;
+            margin-bottom: 30px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            color: aliceblue;
+            padding: 10px;
+            
+        }
+        .container input:focus
+        {
+            border: 0px;
+            border-bottom: 1px solid;
+            outline: none;
+        }
+        #login
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+        }
+        .container input::placeholder
+        {
+            color: aliceblue;
+        }
+       #password
+       {
+        margin-bottom: 35px;
+       }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <span>
+            Page1
+        </span>
+        <span>
+            Page2
+        </span>
+        <span>
+            Page3
+        </span>
+        <span>
+            Page4
+        </span>
+        <button>
+            Sign in
+        </button>
+        <button>
+            Signup
+        </button>
+    </div>
+    <div id="login">
+    <div class="container">
+        <center>
+        <h1>Login</h1>
+        <input type="text" placeholder="Name">
+        <input type="text" placeholder="Phone">
+        <input type="password" placeholder="Password">
+        <input type="text" id="Password" placeholder="Confirm Password">
+    </center>
+     </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    .website {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .box {
+      height: 50px;
+      width: 100px;
+    }
+
+    .d-flex {
+      display: flex;
+      align-items: center;
+    }
+
+    .text {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      position: absolute;
+      right: 15px;
+    }
+
+    .test {
+      border: 1px solid;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .a {
+      background-color: rgb(15, 158, 15);
+      color: aliceblue;
+      border-radius: 10px;
+      padding: 10px 20px;
+      border: none;
+    }
+
+    .card {
+      width: 250px;
+      border-radius: 10px;
+      height: fit-content;
+      box-shadow: 0px 0px 2px gray;
+      margin: 10px;
+    }
+
+    .image img {
+      width: 100%;
+      height: 150px;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+    }
+
+    .textwithimage img {
+      width: 30px;
+      border-radius: 50%;
+      margin-left: 10px;
+    }
+
+    .textwithimage {
+      gap: 10px;
+      display: flex;
+      align-items: center;
+    }
+
+    .text1 div {
+      text-align: justify;
+      padding: 0px 10px;
+    }
+
+    .loremtext {
+      margin-bottom: 5px;
+    }
+
+    .star {
+      color: orange;
+      padding-left: 10px;
+    }
+
+    .afterstartext {
+      box-shadow: 0px -1px rgb(232, 228, 228);
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .heart {
+      color: grey;
+      margin-top: 5px;
+      margin-bottom: 10px;
+    }
+
+    .heart2 {
+      color: grey;
+      margin-top: 5px;
+      margin-bottom: 10px;
+    }
+
+    .price div {
+      text-align: end;
+      position: relative;
+      bottom: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="d-flex">
+    <div class="box">
+      <img width="100%" src="https://logowik.com/content/uploads/images/fiverr-new3326.jpg" alt="">
+    </div> 
+    <div class="text">
+      <span>Fiverr Business</span>
+      <span>Explorer</span>
+      <span>English</span>
+      <span>Become a Seller</span>
+      <span>Sign in</span>
+      <button class="a">Join</button>
+    </div>
+  </div>   <br> <br> 
+  <div class="test">
+    <span class="b">Graphics & Design</span>
+    <span class="b">Video & Animation</span>
+    <span class="b">Writing & transltion</span>
+    <span class="b">AI Services</span>
+    <span class="b">Digital Marketing</span>
+    <span class="b">Music & Audio</span>
+    <span class="b">Programming & Tech</span>
+    <span class="b">Business</span>
+    <span class="b">Lifestyle</span>
+  </div> <br>
+  <span>Fiverr = Graphics & Designs</span>
+  <h1> AI Artists</h1>
+  <span>Explorer the boundaries of art and technology with Fiverr's AI Artists</span> <br> <br>
+  Budget <input type="text">
+  <input type="number">
+  <button class="a">Apply</button>
+  <div class="website">
+    <div class="card">
+      <div class="image">
+        <img src="2.jpg" alt="">
+      </div>
+      <div class="text1">
+        <div class="textwithimage">
+          <img src="2.jpg" alt="">
+          <p>Anna bell</p>
+        </div>
+        <div class="loremtext">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, maxime!
+        </div>
+        <i class="fa fa-star star" aria-hidden="true"></i> 5
+        <div class="afterstartext">
+          <div class="heart">
+            <i class="fa fa-heart-o heart2" aria-hidden="true"></i>
+          </div>
+          <div>Selling Price</div>
+        </div>
+        <div class="price">
+          <div>Rs. 500</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="image">
+        <img src="1234.jpg" alt="">
+      </div>
+      <div class="text1">
+        <div class="textwithimage">
+          <img src="1234.jpg" alt="">
+          <p>Devansh</p>
+        </div>
+        <div class="loremtext">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, maxime!
+        </div>
+        <i class="fa fa-star star" aria-hidden="true"></i> 5
+        <div class="afterstartext">
+          <div class="heart">
+            <i class="fa fa-heart-o heart2" aria-hidden="true"></i>
+          </div>
+          <div>Selling Price</div>
+        </div>
+        <div class="price">
+          <div>Rs.200</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="image">
+        <img src="2345.jpg" alt="">
+      </div>
+      <div class="text1">
+        <div class="textwithimage">
+          <img src="2345.jpg" alt="">
+          <p>Chetanya</p>
+        </div>
+        <div class="loremtext">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, maxime!
+        </div>
+        <i class="fa fa-star star" aria-hidden="true"></i> 5
+        <div class="afterstartext">
+          <div class="heart">
+            <i class="fa fa-heart-o heart2" aria-hidden="true"></i>
+          </div>
+          <div>Selling Price</div>
+        </div>
+        <div class="price">
+          <div>Rs. 700</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="image">
+        <img src="https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg" alt="">
+      </div>
+      <div class="text1">
+        <div class="textwithimage">
+          <img src="https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg" alt="">
+          <p>Ridhi</p>
+        </div>
+        <div class="loremtext">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, maxime!
+        </div>
+        <i class="fa fa-star star" aria-hidden="true"></i> 5
+        <div class="afterstartext">
+          <div class="heart">
+            <i class="fa fa-heart-o heart2" aria-hidden="true"></i>
+          </div>
+          <div>Selling Price</div>
+        </div>
+        <div class="price">
+          <div>Rs.200</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="image">
+        <img src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg" alt="">
+      </div>
+      <div class="text1">
+        <div class="textwithimage">
+          <img src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg" alt="">
+          <p>Yash</p>
+        </div>
+        <div class="loremtext">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, maxime!
+        </div>
+        <i class="fa fa-star star" aria-hidden="true"></i> 5
+        <div class="afterstartext">
+          <div class="heart">
+            <i class="fa fa-heart-o heart2" aria-hidden="true"></i>
+          </div>
+          <div>Selling Price</div>
+        </div>
+        <div class="price">
+          <div>Rs.200</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="image">
+        <img src="https://cdn.pixabay.com/photo/2018/08/23/07/35/thunderstorm-3625405_1280.jpg" alt="">
+      </div>
+      <div class="text1">
+        <div class="textwithimage">
+          <img src="https://cdn.pixabay.com/photo/2018/08/23/07/35/thunderstorm-3625405_1280.jpg" alt="">
+          <p>Shreya</p>
+        </div>
+        <div class="loremtext">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, maxime!
+        </div>
+        <i class="fa fa-star star" aria-hidden="true"></i> 5
+        <div class="afterstartext">
+          <div class="heart">
+            <i class="fa fa-heart-o heart2" aria-hidden="true"></i>
+          </div>
+          <div>Selling Price</div>
+        </div>
+        <div class="price">
+          <div>Rs.200</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
